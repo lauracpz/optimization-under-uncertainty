@@ -1,4 +1,4 @@
-# Optimización de carteras con Gurobi
+# Optimización de carteras bajo incertidumbre con Python y Gurobi
 
 Este proyecto reúne cinco modelos de optimización de carteras formulados en Python con **gurobipy**. Al ejecutar el programa, se resuelve cada modelo y se muestran su valor objetivo y sus variables de decisión.
 
