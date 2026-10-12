@@ -95,11 +95,9 @@ Al ejecutar el programa, se muestra para cada modelo el valor de su función obj
 
 Los valores objetivos de los cinco modelos **no deben compararse como si midieran exactamente lo mismo**. Algunos representan dividendos nominales, mientras que otros optimizan una cota garantizada o combinan esa cota con penalizaciones. Para el análisis conviene revisar conjuntamente el criterio de cada modelo, las decisiones obtenidas y si se cumplen las restricciones.
 
-## 6. Observación sobre la consistencia de los datos
+## 6. Cota de valor futuro
 
-Hay una diferencia en la cota de valor futuro codificada para dos modelos. El nominal usa `Res_5 >= -1555`, mientras que el modelo de incertidumbre en dividendos usa `Res_8 >= -1355`. Con los datos de referencia, el valor futuro sin operaciones es 46.400 USD y el umbral del 5 % es 45.045 USD; la variación mínima compatible con ese umbral sería **-1.355 USD**. La cota `-1.555` permite llegar a 44.845 USD, por debajo de ese umbral.
-
-Por tanto, antes de comparar los resultados del modelo nominal con los de las otras formulaciones, conviene confirmar si `-1555` es intencionado o si debería coincidir con `-1355`. El documento describe el código tal como está implementado y no modifica sus parámetros.
+El valor futuro de la cartera sin operaciones es 46.400 USD y el umbral del 5 % sobre el valor inicial es 45.045 USD. Por tanto, el cambio de valor futuro producido por las operaciones debe ser como mínimo **-1.355 USD**. La restricción `Res_5` del modelo nominal y `Res_8` del modelo de incertidumbre en dividendos usan ahora esa misma cota, de modo que ambos imponen el mismo umbral de valor futuro.
 
 ## 7. Alcance
 

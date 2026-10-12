@@ -28,7 +28,7 @@ def resolver_modelo_nominal():
     modelo.addConstr(-36*x_A + 264*x_M - 50*x_T >= -17820, name="Res_2")
     modelo.addConstr(-36*x_A - 66*x_M + 200*x_T >= 1080, name="Res_3")
     modelo.addConstr(180*x_A + 330*x_M + 250*x_T == 0, name="Res_4")
-    modelo.addConstr(200*x_A + 350*x_M + 280*x_T >= -1555, name="Res_5")
+    modelo.addConstr(200*x_A + 350*x_M + 280*x_T >= -1355, name="Res_5")
 
     resolver(modelo)
     return modelo, {"x_A": x_A, "x_M": x_M, "x_T": x_T}
