@@ -1,6 +1,6 @@
 # Optimización de carteras con Gurobi
 
-Implementación en Python de cinco modelos de optimización de carteras del proyecto académico. Los modelos se construyen con **gurobipy**; al ejecutar el programa se resuelven y se muestran el valor objetivo y las variables de cada modelo.
+Este proyecto reúne cinco modelos de optimización de carteras formulados en Python con **gurobipy**. Al ejecutar el programa, se resuelve cada modelo y se muestran su valor objetivo y sus variables de decisión.
 
 ## Modelos incluidos
 
@@ -56,6 +56,3 @@ src/portfolio_optimization/
 └── __main__.py   # Permite ejecutar python -m portfolio_optimization
 ~~~
 
-## Autoría y licencia
-
-Este código parte de un trabajo académico realizado en equipo. Antes de publicar el repositorio, confirma que puedes compartir el material y añade los créditos y una licencia acordada con las personas titulares del trabajo.
