@@ -2,6 +2,8 @@
 
 Este proyecto reúne cinco modelos de optimización de carteras formulados en Python con **gurobipy**. Al ejecutar el programa, se resuelve cada modelo y se muestran su valor objetivo y sus variables de decisión.
 
+El planteamiento del caso, los supuestos y la interpretación de cada formulación se explican en [Análisis del problema](docs/analisis-del-problema.md).
+
 ## Modelos incluidos
 
 - **Nominal:** modelo de una etapa.
