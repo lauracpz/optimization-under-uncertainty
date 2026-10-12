@@ -97,7 +97,7 @@ Los valores objetivos de los cinco modelos **no deben compararse como si midiera
 
 ## 6. Cota de valor futuro
 
-El valor futuro de la cartera sin operaciones es 46.400 USD y el umbral del 5 % sobre el valor inicial es 45.045 USD. Por tanto, el cambio de valor futuro producido por las operaciones debe ser como mínimo **-1.355 USD**. La restricción `Res_5` del modelo nominal y `Res_8` del modelo de incertidumbre en dividendos usan ahora esa misma cota, de modo que ambos imponen el mismo umbral de valor futuro.
+El valor futuro de la cartera sin operaciones es 46.400 USD y el umbral del 5 % sobre el valor inicial es 45.045 USD. Por tanto, el cambio de valor futuro producido por las operaciones debe ser como mínimo **-1.355 USD**. Las restricciones `Res_5` del modelo nominal y `Res_8` del modelo de incertidumbre en dividendos imponen ese mismo umbral de valor futuro.
 
 ## 7. Alcance
 
